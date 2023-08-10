@@ -4,7 +4,7 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
   {
     id: 1,
-    title: "Air Force",
+    title: "nike",
     price: 119,
     colors: [
       {
