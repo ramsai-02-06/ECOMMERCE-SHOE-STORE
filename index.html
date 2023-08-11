@@ -12,6 +12,21 @@
 </head>
 
 <body>
+    <h1>Shoe Store</h1>
+    <div>
+        <h2>Available Shoes</h2>
+        <ul>
+            <li><button onclick="addToCart('Shoe 1')">Add Shoe 1 to Cart</button></li>
+            <li><button onclick="addToCart('Shoe 2')">Add Shoe 2 to Cart</button></li>
+            <li><button onclick="addToCart('Shoe 3')">Add Shoe 3 to Cart</button></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Cart</h2>
+        <p>Total Shoes in Cart: <span id="cartCount">0</span></p>
+        <ul id="cartList"></ul>
+    </div>
+
     <nav id="nav">
         <div class="navTop">
             <div class="navItem">
